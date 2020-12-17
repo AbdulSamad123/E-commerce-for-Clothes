@@ -1,0 +1,120 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Century Gothic;
+}
+/* Start header style */
+header{
+		background-image:url(images/bg_images/2.jpg);
+		background-color:#000;
+		height:75vh;
+		background-size:cover;
+		background-position:center;
+}
+ul{
+	list-style-type:none;
+	float:right;
+	margin-top:25px;
+	padding-top:30px;
+}
+ul li {
+	display:inline;
+}
+ul li a{
+	text-decoration:none;
+	color:#000;
+	padding:5px 20px;
+	border: 1px solid black;
+	transition:0.6s ease;	
+}
+ul li a:hover{
+	background-color:#000;
+	color:#fff;
+}
+ul li.active a{
+	background-color:#000;
+	color:#fff;
+}
+.logo img{
+	float:left;
+	width:200px;
+	height:auto;	
+}
+.main_div{
+	max-width:1200px;
+	margin:auto;
+}
+
+/* Query Part */
+.loc h1{
+   color:#000;
+   font-size:70px;
+   position:center;
+   border:1px solid black;
+   border-radius: 25px;
+   transition:0.6s ease;
+}
+ .loc h1:hover{
+   background-color:#000;
+   color:#fff;
+ }
+ 
+ 
+ .add {
+	height:300px;
+	width;1100p
+	
+}
+
+.area {
+	height:300px;
+	width:700px;
+	float:left;
+	margin-left:80px;
+	
+	color:grey;
+	
+}
+.visa {
+	
+		height:300px;
+	width:400px;
+	float:right;
+	margin-left:100px;
+	color:grey;
+}
+
+#img {
+	color:black;
+}
+
+/* Start Footer */
+.footer{
+  background-color:black;
+  width:100%;
+  height:500px;
+  margin-top:10%;
+}
+.info{background-color:black;width:25%; height:450px; float:left; color:white;margin:auto;}
+.map {height:200px;width:80%;background-color:black;margin-left:20px;}
+.info h3{font-size:30px;text-decoration:none;color:white;margin-left:20px;}
+.account{background-color:black;width:25%; height:450px;float:left; color:white;}
+.payment {height:250px;width:80%;margin-left:5px; margin-top:50px;} 
+.payment h4{font-size:20px;text-decoration:none;color:white;margin-bottom:20px;}
+.payment img{margin-top:30px;margin-left:20px;}
+.account h3{font-size:30px;text-decoration:none;color:white;}
+.condition{background-color:black;width:25%; height:450px;float:left; color:white;}
+.condition h3{font-size:30px;text-decoration:none;color:white;}
+.courier {height:250px;width:80%;margin-left:5px; margin-top:50px;} 
+.courier h4{font-size:20px;text-decoration:none;color:white;}
+.courier img{margin-top:30px;margin-left:20px;height:50px;width:50px;display:inline;}
+.help{background-color:black;width:25%; height:450px;float:left; color:white;}
+.help h3{font-size:30px;text-decoration:none;color:white;}
+.info p{margin-top:25px;color:white;margin-left:20px;}
+.account p{margin-top:25px;color:white;margin-left:20px;}
+.condition p{margin-top:25px;color:white;margin-left:20px;}
+.help p{margin-top:25px;color:white;margin-left:20px;}
+.payment p{margin-top:25px;color:white;margin-left:20px;}
+.courier p{margin-top:25px;color:white;margin-left:20px;}
+.last p{color:white;margin-top:10px; }
+/* End Footer */

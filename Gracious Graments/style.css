@@ -1,0 +1,137 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Century Gothic;
+}
+/* Start header style */
+header{
+		/*background-image:url(images/bg_images/1.jpg);
+		/*background-color:#000;*/
+		height:25vh;
+		background-size:cover;
+		background-position:center;
+}
+ul{
+	list-style-type:none;
+	float:right;
+	margin-top:25px;
+	padding-top:30px;
+}
+ul li {
+	display:inline;
+}
+ul li a{
+	text-decoration:none;
+	color:#000;
+	padding:5px 20px;
+	border: 1px solid black;
+	transition:0.6s ease;	
+}
+ul li a:hover{
+	background-color:#000;
+	color:#fff;
+}
+ul li.active a{
+	background-color:#000;
+	color:#fff;
+}
+.logo img{
+	float:left;
+	width:200px;
+	height:auto;	
+}
+.main_div{
+	max-width:1200px;
+	margin:auto;
+}
+/* men's collection style start*/
+.head_1 h2{
+	font-size:40px;
+	color:black;
+	background-color:;
+	width=""
+}
+.mc{ background-color; width:100%; height:250px;}
+.shalwar{ background-color:; width:25%;height:250px;float:left; margin-left:10px; text-align:center;  }
+.mc img {
+	box-sizing:border-box;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	margin: auto;
+}
+.mc h4 {
+	margin-top:-5px;
+}
+.mc h3 {
+	margin-top:-23px;
+}
+.mc a:hover{
+	color:red;
+}
+.shirt{ background-color:; width:20%;height:250px;float:left; text-align:center;}
+.t_shirt{ background-color:; width:25%;height:250px;float:left; margin-left:40px; text-align:center;}
+.pant{ background-color:; width:25%;height:250px;float:left; margin-left:10px; text-align:center;}
+.shalwar a{text-decoration:none;}
+.shirt a{text-decoration:none; }
+.t_shirt a{text-decoration:none;}
+.pant a{text-decoration:none;}
+/* Men's Style end*/
+/* women's Style end*/
+.wc{ background-color:; width:100%; height:250px;}
+.w_shalwar{ background-color:; width:25%;height:250px;float:left; margin-left:10px; text-align:center;  }
+.wc img {
+	box-sizing:border-box;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	margin: auto;
+}
+.wc h4 {
+	margin-top:-5px;
+}
+.wc h3 {
+	margin-top:-23px;
+}
+.wc a:hover{
+	color:red;
+}
+.bridal{ background-color:; width:20%;height:250px;float:left; text-align:center;}
+.party_wear{ background-color:; width:25%;height:250px;float:left; margin-left:40px; text-align:center;}
+.kurtis{ background-color:; width:25%;height:250px;float:left; margin-left:10px; text-align:center;}
+.w_shalwar a{text-decoration:none;}
+.bridal a{text-decoration:none; }
+.party_wear a{text-decoration:none;}
+.kurtis a{text-decoration:none;}
+/* women's style end*/ 
+/* footer style start*/ 
+ /* Start Footer */
+.footer{
+  background-color:black;
+  width:100%;
+  height:500px;
+  margin-top:2%;
+}
+.info{background-color:black;width:25%; height:450px; float:left; color:white;margin:auto;}
+.map {height:200px;width:80%;background-color:black;margin-left:20px;}
+.info h3{font-size:30px;text-decoration:none;color:white;margin-left:20px;}
+.account{background-color:black;width:25%; height:450px;float:left; color:white;}
+.payment {height:250px;width:80%;margin-left:5px; margin-top:50px;} 
+.payment h4{font-size:20px;text-decoration:none;color:white;margin-bottom:20px;}
+.payment img{margin-top:30px;margin-left:20px;}
+.account h3{font-size:30px;text-decoration:none;color:white;}
+.condition{background-color:black;width:25%; height:450px;float:left; color:white;}
+.condition h3{font-size:30px;text-decoration:none;color:white;}
+.courier {height:250px;width:80%;margin-left:5px; margin-top:50px;} 
+.courier h4{font-size:20px;text-decoration:none;color:white;}
+.courier img{margin-top:30px;margin-left:20px;height:50px;width:50px;display:inline;}
+.help{background-color:black;width:25%; height:450px;float:left; color:white;}
+.help h3{font-size:30px;text-decoration:none;color:white;}
+.info p{margin-top:25px;color:white;margin-left:20px;}
+.account p{margin-top:25px;color:white;margin-left:20px;}
+.condition p{margin-top:25px;color:white;margin-left:20px;}
+.help p{margin-top:25px;color:white;margin-left:20px;}
+.payment p{margin-top:25px;color:white;margin-left:20px;}
+.courier p{margin-top:25px;color:white;margin-left:20px;}
+.last p{color:white;margin-top:10px; }
+/* End Footer */
